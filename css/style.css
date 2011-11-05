@@ -1,0 +1,278 @@
+body {
+	color:#bfbfbf;
+}
+
+a {text-decoration:none; color:#535355; border: 0px;}
+
+#buttonWrapper a:hover {
+	display: block;
+	width: 89px;
+	height: 42px;
+	background-image:url('../images/nkez_19.png');
+	background-repeat:no-repeat;
+}
+
+
+
+/* ===== Home Page ==== */
+#content {
+	width:800px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #1d1e1e;
+}
+
+#logo {	
+	position:relative;
+	width:800px;
+	height:142px;
+	margin:0px;
+	padding:0px;
+	background-image:url('../images/nkez_01.png');
+}
+
+#logoText {	
+	position: absolute;
+	width:675px;
+	top:35px;
+	left:360px;
+	padding:0px 0px 0px 0px;
+	margin:0px;
+}
+
+#login{	
+	position: absolute;
+	width:247px;
+	height:49px;
+	top:0px;
+	left:60px;
+	padding:0px 0px 0px 0px;
+	margin:0px;
+	background-image:url('../images/nkez_03.png');
+}
+
+#lock{	
+	position: absolute;
+	width:33px;
+	height:46px;
+	top:0px;
+	left:100px;
+	padding:0px 0px 0px 0px;
+	margin:0px;
+}
+
+#loginText{	
+	position: absolute;
+	width:103px;
+	height:11px;
+	top:18px;
+	left:150px;
+	padding:0px 0px 0px 0px;
+	margin:0px;
+}
+
+#navigation {
+	position:relative;
+	width:800px;
+	padding:0;
+	margin:0;
+	background: #1d1e1e;
+}
+
+#lnav{	
+	width:80px;
+	height:31px;
+	float:left;
+	padding:0px 0px 0px 0px;
+	margin:0px;
+	background:#1d1e1e url('../images/nkez_04.png');background-repeat:no-repeat;background-position:right;
+}
+
+#mnav{
+	position:relative;
+	width:640px;
+	height:31px;
+	float:left;
+	padding:0px 0px 0px 0px;
+	margin:0px;
+	background-image:url('../images/nkez_05.png');
+}
+
+#rnav{	
+	width:80px;
+	height:31px;
+	float:left;
+	padding:0px 0px 0px 0px;
+	margin:0px;
+	background:#1d1e1e url('../images/nkez_06.png');background-repeat:no-repeat;
+}
+
+#buttonWrapper {
+	position: absolute;
+	width:640px;
+	top:-12px;
+	left:0px;
+	padding:0px 0px 0px 0px;
+	margin:0px;
+}
+
+.navButtons{
+	height:40px;
+	float:left;
+	padding:0px 10px 0px 10px;
+	margin:0px;
+	border:solid;
+	border-width:0px;
+	border-color: #ffffff;
+	line-height:3.5em;
+	text-align: center;
+}
+
+#navRSS {	
+	position: absolute;
+	width:675px;
+	top:-1px;
+	left:600px;
+	padding:0px 0px 0px 0px;
+	margin:0px;
+}
+
+#banner {
+	position:relative;
+	width:800px;
+	padding:0;
+	margin:0;
+	background: #1d1e1e;
+}
+
+#lban{	
+	width:65px;
+	height:237px;
+	float:left;
+	padding:0px 0px 0px 0px;
+	margin:0px;
+	background:#1d1e1e url('../images/nkez_09.png');background-repeat:no-repeat;background-position:right;
+}
+
+#mban{
+	position:relative;
+	width:670px;
+	height:31px;
+	float:left;
+	padding:0px 0px 0px 0px;
+	margin:0px;
+	background-image:url('../images/nkez_05.png');
+}
+
+#rban{	
+	width:65px;
+	height:237px;
+	float:left;
+	padding:0px 0px 0px 0px;
+	margin:0px;
+	background:#1d1e1e url('../images/nkez_10.png');background-repeat:no-repeat;
+}
+
+#banner img{	
+	width:670;
+	height:237px;
+}
+
+#conBody {
+	width:670px;
+	padding: 25px 65px 65px 65px;
+	margin:0;
+	background: #1d1e1e;
+}
+
+#conText {
+	width:670px;
+	padding: 25px 0px 25px 0px;
+	margin:0;
+	background: #1d1e1e;
+	font-size:14px;
+}
+
+#conPicWrapper {
+	position:relative;
+	width:542px;
+	padding: 0px 64px 0px 64px;
+	margin:0;
+	background: #1d1e1e;
+}
+
+.conPicTitle {
+	width:180px;
+	float:left;
+	padding: 5px 0px 0px 0px;
+	margin:0;
+	background: #1d1e1e;
+	font-variant:small-caps;
+	text-align: center;
+	font-size:15px;
+}
+
+.conPic {
+	width:180px;
+	float:left;
+	padding: 5px 0px 0px 0px;
+	margin:0;
+	background: #1d1e1e;
+	font-variant:small-caps;
+	text-align: center;
+}
+
+#footer{
+	position:relative;
+	width:670px;
+	height:36px;
+	padding: 58px 65px 0px 65px;
+	margin:0px;
+	background: #1d1e1e;
+}
+
+#lfoot{	
+	width:15px;
+	height:36px;
+	float:left;
+	padding:0px 0px 0px 0px;
+	margin:0px;
+	background:#1d1e1e url('../images/nkez_14.png');background-repeat:no-repeat;background-position:right;
+}
+
+#mfoot{
+	width:610px;
+	height:32px;
+	float:left;
+	padding:4px 0px 0px 0px;
+	margin:0px;
+	background:#1d1e1e url('../images/nkez_15.png');
+	font-size:11px;
+	color:#000000;
+}
+
+#rfoot{	
+	width:15px;
+	height:36px;
+	float:left;
+	padding:0px 0px 0px 0px;
+	margin:0px;
+	background:#1d1e1e url('../images/nkez_16.png');background-repeat:no-repeat;
+}
+
+.clear {
+	clear:both;
+}
+
+.center {
+	text-align: center;
+ }
+ 
+.small {
+	font-variant:small-caps;
+}
+
+.font17 { 
+	font-size: 17px;
+}
+
